@@ -1,0 +1,37 @@
+# Environment & secrets — nunca commitar
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Config local do Devin (por máquina)
+.devin/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / builds
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Hardhat / Foundry (smartcontracts)
+artifacts/
+cache/
+out/
+broadcast/
+
+# Logs, SO e editores
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+coverage/
+playwright-report/
+test-results/
